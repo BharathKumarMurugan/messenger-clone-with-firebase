@@ -1,0 +1,24 @@
+.message__card{
+  padding: 10px;
+  margin: 10px;
+  width: fit-content;
+  text-align: left !important;
+}
+.message__user{
+  margin-left: auto;
+  /* text-align: left !important; */
+  color: white;
+}
+.message__userCard{
+  background-color: lightgray !important;
+}
+.message__guestCard{
+  background-color: lightskyblue !important;
+}
+.message__cardContent{
+  border-radius: 50px !important;
+}
+.message__typo_username{
+  font-size: 10px !important;
+  font-style: italic;
+}

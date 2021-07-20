@@ -1,0 +1,27 @@
+.messagebox__form{
+  padding: 20px;
+  /* margin: 20px; */
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #e9e9eb;
+  z-index: 1;
+}
+.messagebox__formControl{
+  display: flex !important;
+  flex-direction: row !important;
+}
+.messagebox__input {
+  flex: 0.99 !important;
+  /* flex: 1 1 !important; */
+  border-radius: 50px !important;
+  background-color: #f1f1f1;
+  padding: 0px 12px;
+}
+.messagebox__input::after,
+.messagebox__input::before{
+  border: none !important;
+}
+.messagebox__iconButton{
+  flex: 0 !important;
+}
